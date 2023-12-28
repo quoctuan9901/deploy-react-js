@@ -8,7 +8,7 @@ export default function Cart() {
     const { cartItems, cartCount, cartSubTotal, handleUpdateQuantity, handleRemoveFromCart } = useContext(Context);
 
     const handleBackToShop = () => {
-        navigate("/deploy-react-js/");
+        navigate("/deploy-react-js");
     };
 
     return (
@@ -77,7 +77,7 @@ export default function Cart() {
 
                                             <div className="pt-5">
                                                 <MDBTypography tag="h6" className="mb-0">
-                                                    <Link to="/deploy-react-js/">
+                                                    <Link to="/deploy-react-js">
                                                         <MDBIcon fas icon="long-arrow-alt-left me-2" onClick={handleBackToShop} /> Back to shop
                                                     </Link>
                                                 </MDBTypography>
