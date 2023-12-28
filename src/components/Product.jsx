@@ -10,7 +10,7 @@ function Product() {
     const navigate = useNavigate();
 
     const handleRedirectToCart = () => {
-        navigate("/cart");
+        navigate("/deploy-react-js/cart");
     };
 
     useEffect(() => {

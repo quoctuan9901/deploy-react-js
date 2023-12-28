@@ -8,7 +8,7 @@ export default function Cart() {
     const { cartItems, cartCount, cartSubTotal, handleUpdateQuantity, handleRemoveFromCart } = useContext(Context);
 
     const handleBackToShop = () => {
-        navigate("/");
+        navigate("/deploy-react-js");
     };
 
     return (

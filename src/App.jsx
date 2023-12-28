@@ -6,8 +6,8 @@ const App = () => {
 
   return (
     <Routes>
-      <Route index element={<Product />}></Route>
-      <Route path="/cart" element={<Cart />}></Route>
+      <Route path="/deploy-react-js" index element={<Product />}></Route>
+      <Route path="/deploy-react-js/cart" element={<Cart />}></Route>
     </Routes>
   );
 };
